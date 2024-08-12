@@ -1,6 +1,39 @@
 # Top 100 Somali YouTubers Analysis
 
-This project involves web scraping, data cleaning, and visualization of the top 100 Somali YouTubers. The data is scraped from a website, cleaned for analysis, and visualized using various libraries in Python.
+**What is the key pain point?**
+The Head of Marketing wants to find out who the top YouTubers are in 2024 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
+
+**What is the ideal solution?**
+To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
+
+subscriber count
+total views
+total videos, and
+engagement metrics
+This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
+
+# User story
+As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK .
+
+This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views.
+
+With this information, I can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is.
+
+# Data source
+URL= 'https://us.youtubers.me/somalia/all/top-1000-most-subscribed-youtube-channels-dentro-somalia' 
+What data is needed to achieve our objective?
+We need data on the Top 100 Somali YouTubers in 2024 that includes their
+
+1. **Rank**
+2. **Youtuber**
+3. **Subscriber**
+4. **Video-Views**
+5. **Video-Counts**
+6. **Category**
+7. **Started**
+
+
+Where is the data coming from? The data is sourced from Kaggle (an Excel extract)
 
 ## Table of Contents
 
