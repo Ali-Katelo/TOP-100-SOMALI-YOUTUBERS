@@ -1,13 +1,13 @@
 
 
-###TOP 100 SOMALI YOUTUBERS ANALYSIS
+### TOP 100 SOMALI YOUTUBERS ANALYSIS
 
 This notebook documents the process of web scraping, data cleaning, and visualization 
 of the top 100 Somali YouTubers.
 
 
 # Step 1: Web Scraping
-
+`
 # Install necessary libraries
 !pip install beautifulsoup4 requests pandas matplotlib seaborn plotly
 
@@ -47,6 +47,7 @@ if table:
     print(df)
 else:
     print("Table not found. Double-check the website structure and class names.")
+    `
 
 # Step 2: Data Cleaning
 
