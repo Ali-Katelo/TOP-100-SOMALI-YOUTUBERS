@@ -1,10 +1,10 @@
-# -*- coding: utf-8 -*-
 
-"""TOP 100 SOMALI YOUTUBERS ANALYSIS
+
+###TOP 100 SOMALI YOUTUBERS ANALYSIS
 
 This notebook documents the process of web scraping, data cleaning, and visualization 
 of the top 100 Somali YouTubers.
-"""
+
 
 # Step 1: Web Scraping
 
