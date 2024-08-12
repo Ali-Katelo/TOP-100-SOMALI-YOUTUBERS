@@ -16,9 +16,10 @@ Before running the notebook, ensure you have the required libraries installed. Y
 
 ```bash
 !pip install beautifulsoup4 requests pandas matplotlib seaborn plotly
+```
 
-Web Scraping
-Objective
+# Web Scraping
+**Objective**
 The goal is to extract data about the top YouTubers from a specified URL.
 Code
 python
