@@ -21,7 +21,8 @@ Before running the notebook, ensure you have the required libraries installed. Y
 # Web Scraping
 **Objective**
 The goal is to extract data about the top YouTubers from a specified URL.
-Code
+**Code**
+```bash
 python
 import requests
 from bs4 import BeautifulSoup
@@ -59,10 +60,12 @@ if table:
     print(df)
 else:
     print("Table not found. Double-check the website structure and class names.")
+```
 
-Data Cleaning
-Objective
-Clean the scraped data to ensure it is in a usable format.
+##  Data Cleaning
+# Objective
+**Clean the scraped data to ensure it is in a usable format.**
+```bash
 Code
 python
 import os
@@ -108,10 +111,12 @@ df.to_csv(cleaned_file_path, index=False)
 # Display the first few rows of the cleaned dataset
 print("\nCleaned Data:")
 print(df.head())
+```
 
-Data Visualization
-Objective
-Visualize the cleaned data to gain insights.
+## Data Visualization
+# Objective
+**Visualize the cleaned data to gain insights.**
+```bash
 Code
 python
 import matplotlib.pyplot as plt
@@ -127,6 +132,7 @@ plt.ylabel('Subscribers')
 plt.title('Top 10 YouTubers by Subscribers')
 plt.xticks(rotation=45)
 plt.show()
+
 
 # Total Video Views by Category
 category_views = df.groupby('Category')['Video Views'].sum().sort_values()
@@ -180,9 +186,10 @@ plt.show()
 # Treemap of Subscribers by Category
 fig = px.treemap(df, path=['Category'], values='Subscribers', title='Subscribers by Category')
 fig.show()
+```
 
-Conclusion
-This notebook demonstrates the complete workflow from web scraping to data visualization. Each section is modular and can be expanded or modified based on specific needs. You can upload this notebook to GitHub for sharing and collaboration.
+## Conclusion
+**This notebook demonstrates the complete workflow from web scraping to data visualization. Each section is modular and can be expanded or modified based on specific needs. You can upload this notebook to GitHub for sharing and collaboration.**
 text
 
 ### Instructions for Use
@@ -193,4 +200,4 @@ text
 
 3. **Modify File Paths**: Adjust any file paths as necessary based on your local environment.
 
-This format provides a clear and organized presentation of your project, making it easier for others to understand and replicate your work.
+
